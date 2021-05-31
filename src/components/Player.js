@@ -17,8 +17,8 @@ const Player = ( { currentSong, isPlaying, setIsPlaying }) => {
     };
     //state
     const [songInfo, setSongInfo] = useState({
-        currentTime: null,
-        duration: null,
+        currentTime: 0,
+        duration: 0,
     });
 
     const timeUpdateHandler = (e) => {
